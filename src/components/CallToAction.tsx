@@ -26,14 +26,14 @@ export const CallToAction = () => {
           <Image
             src={helixImage}
             alt=""
-            className="absolute top-6 left-[calc(100%+36px)]"
+            className="absolute top-6 left-[calc(100%+36px)] hidden sm:inline"
           />
         </motion.div>
         <motion.div style={{ translateY }}>
           <Image
             src={emojiStarImage}
             alt=""
-            className="absolute -top-[120px] right-[calc(100%+24px)]"
+            className="absolute -top-[120px] right-[calc(100%+24px)] hidden sm:inline"
           />
         </motion.div>
         <h2 className="font-bold text-5xl tracking-tighter sm:text-6xl">

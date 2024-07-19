@@ -36,7 +36,7 @@ export const Features = () => {
 
         <div className="mt-16 flex flex-col sm:flex-row gap-4">
           {features.map(({ title, description }) => (
-            <Feature title={title} description={description} />
+            <Feature key={title} title={title} description={description} />
           ))}
         </div>
       </div>
